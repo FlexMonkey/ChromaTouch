@@ -16,7 +16,6 @@
 		052278841BB7C85C0002FBA2 /* Swatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052278831BB7C85C0002FBA2 /* Swatch.swift */; settings = {ASSET_TAGS = (); }; };
 		052278861BB7CA950002FBA2 /* PeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052278851BB7CA950002FBA2 /* PeekViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		052278891BB7CCE50002FBA2 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052278881BB7CCE50002FBA2 /* UIColorExtensions.swift */; settings = {ASSET_TAGS = (); }; };
-		0522788D1BB809BF0002FBA2 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0522788C1BB809BF0002FBA2 /* PopViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		052278831BB7C85C0002FBA2 /* Swatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swatch.swift; sourceTree = "<group>"; };
 		052278851BB7CA950002FBA2 /* PeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekViewController.swift; sourceTree = "<group>"; };
 		052278881BB7CCE50002FBA2 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
-		0522788C1BB809BF0002FBA2 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +80,6 @@
 				052278801BB7BDC60002FBA2 /* SliderWidget.swift */,
 				052278831BB7C85C0002FBA2 /* Swatch.swift */,
 				052278851BB7CA950002FBA2 /* PeekViewController.swift */,
-				0522788C1BB809BF0002FBA2 /* PopViewController.swift */,
 			);
 			name = components;
 			sourceTree = "<group>";
@@ -167,7 +164,6 @@
 			files = (
 				052278711BB7B92A0002FBA2 /* ChromaTouchViewController.swift in Sources */,
 				052278861BB7CA950002FBA2 /* PeekViewController.swift in Sources */,
-				0522788D1BB809BF0002FBA2 /* PopViewController.swift in Sources */,
 				052278841BB7C85C0002FBA2 /* Swatch.swift in Sources */,
 				052278891BB7CCE50002FBA2 /* UIColorExtensions.swift in Sources */,
 				052278811BB7BDC60002FBA2 /* SliderWidget.swift in Sources */,
