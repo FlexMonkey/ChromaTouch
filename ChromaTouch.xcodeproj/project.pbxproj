@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		0522786F1BB7B92A0002FBA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0522786E1BB7B92A0002FBA2 /* AppDelegate.swift */; };
-		052278711BB7B92A0002FBA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052278701BB7B92A0002FBA2 /* ViewController.swift */; };
+		052278711BB7B92A0002FBA2 /* ChromaTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052278701BB7B92A0002FBA2 /* ChromaTouchViewController.swift */; };
 		052278741BB7B92A0002FBA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052278721BB7B92A0002FBA2 /* Main.storyboard */; };
 		052278761BB7B92A0002FBA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052278751BB7B92A0002FBA2 /* Assets.xcassets */; };
 		052278791BB7B92A0002FBA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052278771BB7B92A0002FBA2 /* LaunchScreen.storyboard */; };
+		052278811BB7BDC60002FBA2 /* SliderWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052278801BB7BDC60002FBA2 /* SliderWidget.swift */; settings = {ASSET_TAGS = (); }; };
+		052278841BB7C85C0002FBA2 /* Swatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052278831BB7C85C0002FBA2 /* Swatch.swift */; settings = {ASSET_TAGS = (); }; };
+		052278861BB7CA950002FBA2 /* PeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052278851BB7CA950002FBA2 /* PeekViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		052278891BB7CCE50002FBA2 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052278881BB7CCE50002FBA2 /* UIColorExtensions.swift */; settings = {ASSET_TAGS = (); }; };
+		0522788D1BB809BF0002FBA2 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0522788C1BB809BF0002FBA2 /* PopViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0522786B1BB7B92A0002FBA2 /* ChromaTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromaTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0522786E1BB7B92A0002FBA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		052278701BB7B92A0002FBA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		052278701BB7B92A0002FBA2 /* ChromaTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromaTouchViewController.swift; sourceTree = "<group>"; };
 		052278731BB7B92A0002FBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		052278751BB7B92A0002FBA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		052278781BB7B92A0002FBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0522787A1BB7B92A0002FBA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052278801BB7BDC60002FBA2 /* SliderWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderWidget.swift; sourceTree = "<group>"; };
+		052278831BB7C85C0002FBA2 /* Swatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swatch.swift; sourceTree = "<group>"; };
+		052278851BB7CA950002FBA2 /* PeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekViewController.swift; sourceTree = "<group>"; };
+		052278881BB7CCE50002FBA2 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		0522788C1BB809BF0002FBA2 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,35 @@
 		0522786D1BB7B92A0002FBA2 /* ChromaTouch */ = {
 			isa = PBXGroup;
 			children = (
+				052278871BB7CCD10002FBA2 /* extensions */,
+				052278821BB7C83B0002FBA2 /* components */,
 				0522786E1BB7B92A0002FBA2 /* AppDelegate.swift */,
-				052278701BB7B92A0002FBA2 /* ViewController.swift */,
+				052278701BB7B92A0002FBA2 /* ChromaTouchViewController.swift */,
 				052278721BB7B92A0002FBA2 /* Main.storyboard */,
 				052278751BB7B92A0002FBA2 /* Assets.xcassets */,
 				052278771BB7B92A0002FBA2 /* LaunchScreen.storyboard */,
 				0522787A1BB7B92A0002FBA2 /* Info.plist */,
 			);
 			path = ChromaTouch;
+			sourceTree = "<group>";
+		};
+		052278821BB7C83B0002FBA2 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				052278801BB7BDC60002FBA2 /* SliderWidget.swift */,
+				052278831BB7C85C0002FBA2 /* Swatch.swift */,
+				052278851BB7CA950002FBA2 /* PeekViewController.swift */,
+				0522788C1BB809BF0002FBA2 /* PopViewController.swift */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		052278871BB7CCD10002FBA2 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				052278881BB7CCE50002FBA2 /* UIColorExtensions.swift */,
+			);
+			name = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				052278711BB7B92A0002FBA2 /* ViewController.swift in Sources */,
+				052278711BB7B92A0002FBA2 /* ChromaTouchViewController.swift in Sources */,
+				052278861BB7CA950002FBA2 /* PeekViewController.swift in Sources */,
+				0522788D1BB809BF0002FBA2 /* PopViewController.swift in Sources */,
+				052278841BB7C85C0002FBA2 /* Swatch.swift in Sources */,
+				052278891BB7CCE50002FBA2 /* UIColorExtensions.swift in Sources */,
+				052278811BB7BDC60002FBA2 /* SliderWidget.swift in Sources */,
 				0522786F1BB7B92A0002FBA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
