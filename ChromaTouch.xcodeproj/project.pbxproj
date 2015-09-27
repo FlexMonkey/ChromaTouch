@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0522786F1BB7B92A0002FBA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0522786E1BB7B92A0002FBA2 /* AppDelegate.swift */; };
+		052278711BB7B92A0002FBA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052278701BB7B92A0002FBA2 /* ViewController.swift */; };
+		052278741BB7B92A0002FBA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052278721BB7B92A0002FBA2 /* Main.storyboard */; };
+		052278761BB7B92A0002FBA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052278751BB7B92A0002FBA2 /* Assets.xcassets */; };
+		052278791BB7B92A0002FBA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052278771BB7B92A0002FBA2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0522786B1BB7B92A0002FBA2 /* ChromaTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromaTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0522786E1BB7B92A0002FBA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		052278701BB7B92A0002FBA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		052278731BB7B92A0002FBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		052278751BB7B92A0002FBA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		052278781BB7B92A0002FBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0522787A1BB7B92A0002FBA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		052278681BB7B92A0002FBA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052278621BB7B92A0002FBA2 = {
+			isa = PBXGroup;
+			children = (
+				0522786D1BB7B92A0002FBA2 /* ChromaTouch */,
+				0522786C1BB7B92A0002FBA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0522786C1BB7B92A0002FBA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0522786B1BB7B92A0002FBA2 /* ChromaTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0522786D1BB7B92A0002FBA2 /* ChromaTouch */ = {
+			isa = PBXGroup;
+			children = (
+				0522786E1BB7B92A0002FBA2 /* AppDelegate.swift */,
+				052278701BB7B92A0002FBA2 /* ViewController.swift */,
+				052278721BB7B92A0002FBA2 /* Main.storyboard */,
+				052278751BB7B92A0002FBA2 /* Assets.xcassets */,
+				052278771BB7B92A0002FBA2 /* LaunchScreen.storyboard */,
+				0522787A1BB7B92A0002FBA2 /* Info.plist */,
+			);
+			path = ChromaTouch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0522786A1BB7B92A0002FBA2 /* ChromaTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0522787D1BB7B92A0002FBA2 /* Build configuration list for PBXNativeTarget "ChromaTouch" */;
+			buildPhases = (
+				052278671BB7B92A0002FBA2 /* Sources */,
+				052278681BB7B92A0002FBA2 /* Frameworks */,
+				052278691BB7B92A0002FBA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromaTouch;
+			productName = ChromaTouch;
+			productReference = 0522786B1BB7B92A0002FBA2 /* ChromaTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		052278631BB7B92A0002FBA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Simon Gladman";
+				TargetAttributes = {
+					0522786A1BB7B92A0002FBA2 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 052278661BB7B92A0002FBA2 /* Build configuration list for PBXProject "ChromaTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 052278621BB7B92A0002FBA2;
+			productRefGroup = 0522786C1BB7B92A0002FBA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0522786A1BB7B92A0002FBA2 /* ChromaTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		052278691BB7B92A0002FBA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052278791BB7B92A0002FBA2 /* LaunchScreen.storyboard in Resources */,
+				052278761BB7B92A0002FBA2 /* Assets.xcassets in Resources */,
+				052278741BB7B92A0002FBA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052278671BB7B92A0002FBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052278711BB7B92A0002FBA2 /* ViewController.swift in Sources */,
+				0522786F1BB7B92A0002FBA2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		052278721BB7B92A0002FBA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052278731BB7B92A0002FBA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		052278771BB7B92A0002FBA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052278781BB7B92A0002FBA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0522787B1BB7B92A0002FBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0522787C1BB7B92A0002FBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0522787E1BB7B92A0002FBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChromaTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.flexmonkey.ChromaTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0522787F1BB7B92A0002FBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChromaTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.flexmonkey.ChromaTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052278661BB7B92A0002FBA2 /* Build configuration list for PBXProject "ChromaTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0522787B1BB7B92A0002FBA2 /* Debug */,
+				0522787C1BB7B92A0002FBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0522787D1BB7B92A0002FBA2 /* Build configuration list for PBXNativeTarget "ChromaTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0522787E1BB7B92A0002FBA2 /* Debug */,
+				0522787F1BB7B92A0002FBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 052278631BB7B92A0002FBA2 /* Project object */;
+}
