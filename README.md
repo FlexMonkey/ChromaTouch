@@ -1,15 +1,15 @@
 # ChromaTouch
-Introduction to 3D Touch in Swift with Peek, Pop and Preview Actions
+####Introduction to 3D Touch in Swift with Peek, Pop and Preview Actions
 
-Companion project to http://flexmonkey.blogspot.co.uk/2015/09/chromatouch-3d-touch-colour-picker-in.html
+#####Companion project to http://flexmonkey.blogspot.co.uk/2015/09/chromatouch-3d-touch-colour-picker-in.html
 
 If you're fairly new to Swift, you may have found my last post on 3D Touch a little daunting. Here's a much smaller project that may be a little easier to follow to get up and running with force, peek, pop and preview actions. 
 
 ChromaTouch is a HSL based colour picker where the user can set the colour with three horizontal sliders or by touching over a colour swatch where horizontal movement sets hue, vertical set saturation and the force of the touch sets the lightness of the colour. As the user moves their finger over the swatch, the sliders update to reflect the new HSL values.
 
-By force touching the sliders, the user is presented with a small preview displaying the RGB hex value of their colour:
+By force touching the sliders, the user is presented with a small preview displaying the RGB hex value of their colour.
 
-By swiping up they can set their colour to one of three presets:.
+By swiping up they can set their colour to one of three presets.
 
 And by deep pressing, they're presented with a full screen preview of their colour which is dismissed with a tap.
 
